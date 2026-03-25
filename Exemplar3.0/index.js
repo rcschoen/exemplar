@@ -3,8 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 /**
- * SERVER URL: [Your Deployed URL Goes Here]
- * Example: https://exemplar-cloud.onrender.com
+ * SERVER URL: https://exemplar-hz51.onrender.com
  */
 
 const server = http.createServer((req, res) => {
@@ -22,7 +21,7 @@ const server = http.createServer((req, res) => {
         });
     }
 
-    // 2. API Route (Serves the db.json content)
+    // 2. API Route
     else if (req.url === '/api') {
         fs.readFile(path.join(__dirname, 'public', 'db.json'), 'utf-8', (err, content) => {
             if (err) {
@@ -42,7 +41,7 @@ const server = http.createServer((req, res) => {
     }
 });
 
-// Use the environment PORT for deployment, or 5959 for local testing
+// environment PORT 
 const PORT = process.env.PORT || 5959;
 
 server.listen(PORT, () => {
