@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Free",
+      "price": "0",
+      "cloudStorage": "5 GB",
+      "serverCount": "1",
+      "support": false
+    },
+    {
+      "id": 2,
+      "title": "Starter",
+      "price": "49",
+      "cloudStorage": "50 GB",
+      "serverCount": "2",
+      "support": false
+    },
+    {
+      "id": 3,
+      "title": "Professional",
+      "price": "119",
+      "cloudStorage": "200 GB",
+      "serverCount": "5",
+      "support": true
+    },
+    {
+      "id": 4,
+      "title": "Enterprise",
+      "price": "399",
+      "cloudStorage": "1 TB",
+      "serverCount": "15",
+      "support": true
+    },
+    {
+      "id": 5,
+      "title": "Student",
+      "price": "20",
+      "cloudStorage": "25 GB",
+      "serverCount": "2",
+      "support": false
+    },
+    {
+      "id": 6,
+      "title": "Developer",
+      "price": "75",
+      "cloudStorage": "100 GB",
+      "serverCount": "3",
+      "support": true
+    },
+    {
+      "id": 7,
+      "title": "Business Plus",
+      "price": "249",
+      "cloudStorage": "500 GB",
+      "serverCount": "10",
+      "support": true
+    },
+    {
+      "id": 8,
+      "title": "High Performance",
+      "price": "499",
+      "cloudStorage": "2 TB",
+      "serverCount": "25",
+      "support": true
+    }
+  ]
+}
